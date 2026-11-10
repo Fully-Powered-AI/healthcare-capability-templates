@@ -1,0 +1,54 @@
+{
+  "id": "clinic-supply-par-levels-and-expiry-check",
+  "name": "Clinic supply par levels and expiry check",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "From the clinic's own stock-count and usage exports, the person who orders supplies gets a par level and reorder point for every item in every room, what is below par, what will expire before it is used, and a draft order. Medical-surgical and office supplies only; a person approves every order.",
+  "directory": "https://fullypowered.ai/capabilities/clinic-supply-par-levels-and-expiry-check/",
+  "primary_function": "functions/supply-chain-and-inventory",
+  "functions": [
+    "functions/supply-chain-and-inventory"
+  ],
+  "industries": [
+    "industries/healthcare"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "inventory-reorder-plan",
+    "vendor-quote-comparison",
+    "prior-authorization-follow-up-list"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own design: the limit to medical-surgical and office supplies with everything else listed as out of scope; room-by-room work from stock-count, usage and item-list exports with set column headers that stop on a mismatch; daily use counted per open day; a par covering the days between orders, the supplier's delivery time and a buffer; the lot-by-lot, whole-unit count of how much of each lot will be used before its expiry date; a draft order net of open orders, rounded to supplier packs, with an approval line; and surplus in other rooms shown but never subtracted."
+    },
+    {
+      "kind": "third-party",
+      "repository": "kishorkukreja/awesome-supply-chain",
+      "commit": "397d95172e374225574f1fb580c1a77376fff836",
+      "path": "skills/hospital-logistics/SKILL.md",
+      "licence": "MIT",
+      "contribution": "A par as the amount each location is filled back up to at every restock, sized from average daily use over the days it must last plus a buffer in days of use; earliest-date-first handling of lots with a value on stock that will be lost; a warning period before expiry; a refill trigger ahead of the regular restock; a stock-out read as a sign of a low par; and moving surplus or short-dated stock to where it is used faster.",
+      "text_reused": false,
+      "notice": "notices/kishorkukreja-awesome-supply-chain-LICENSE.txt"
+    }
+  ]
+}

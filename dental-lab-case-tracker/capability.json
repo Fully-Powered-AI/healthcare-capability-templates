@@ -1,0 +1,56 @@
+{
+  "id": "dental-lab-case-tracker",
+  "name": "Dental lab case tracker",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "The office coordinator keeps one tracker of every case at an outside dental lab: when it went, the lab's due date against the patient's seating, which cases are overdue or due back too late, each remake with its stated reason, and each lab's on-time record for the quarter. A person calls every lab.",
+  "directory": "https://fullypowered.ai/capabilities/dental-lab-case-tracker/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/operations-and-process-improvement",
+    "functions/procurement-and-suppliers",
+    "functions/quality-management"
+  ],
+  "industries": [
+    "industries/healthcare"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "provider-credentialing-tracker",
+    "supplier-issue-notice",
+    "pilot-acceptance-test-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "The front-office form of the work: a spreadsheet export with stated column headers and a stop on any mismatch, unread columns named and never repeated, check-in days held back before each seating, cases sorted into fixed lists, remake reasons copied as written and never judged, a quarterly record per lab from the office's own dates with no targets or ranking, and nothing contacted, booked or changed."
+    },
+    {
+      "kind": "third-party",
+      "repository": "CaseMark/skills",
+      "commit": "afe48c44914d753297766404378e871d1f88d7a8",
+      "path": "skills/med/managing-dental-laboratory-coordination/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "Setting the date a lab expects to return a case against the patient's booked visit; having the work back early enough to be looked over before that visit; recording each remake with why it was needed; a quarterly review of each lab that includes whether cases came back by the promised date. Its order, shade, material, inspection and digital-file content is not used.",
+      "text_reused": false,
+      "notice": "notices/CaseMark-skills-LICENSE.txt"
+    }
+  ]
+}

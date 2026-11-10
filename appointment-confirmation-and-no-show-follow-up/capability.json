@@ -1,0 +1,67 @@
+{
+  "id": "appointment-confirmation-and-no-show-follow-up",
+  "name": "Appointment confirmation and no-show follow-up",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "The front desk gets tomorrow’s bookings from the appointment export with the practice’s approved script or message filled in for each, every reply recorded once staff have called, and today’s no-shows with open slots to offer them. Staff make every call and every diary change.",
+  "directory": "https://fullypowered.ai/capabilities/appointment-confirmation-and-no-show-follow-up/",
+  "primary_function": "functions/customer-support-and-service",
+  "functions": [
+    "functions/customer-support-and-service",
+    "functions/operations-and-process-improvement"
+  ],
+  "industries": [
+    "industries/healthcare",
+    "industries/professional-services",
+    "industries/education"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "prior-authorization-follow-up-list",
+    "customer-reply-drafting",
+    "pilot-acceptance-test-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own rules for prepared work: the practice's own exports, settings and approved wording as the only authority, a stop on any header it cannot match, health details kept out of the list, and staff who make every call and every diary change."
+    },
+    {
+      "kind": "third-party",
+      "repository": "CALLE-AI/awesome-phone-call-agents",
+      "commit": "14ab8d21081ead9063a6af5f86804bc9cdafb626",
+      "path": "skills/confirmcall-day-board/SKILL.md",
+      "licence": "MIT",
+      "contribution": "Working through one day of existing bookings with a single contact each, sorting answers into coming, not coming or wanting to move, counting a voicemail or no answer as unconfirmed, and keeping diary changes with a person.",
+      "text_reused": false,
+      "notice": "notices/CALLE-AI-awesome-phone-call-agents-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "CALLE-AI/awesome-phone-call-agents",
+      "commit": "14ab8d21081ead9063a6af5f86804bc9cdafb626",
+      "path": "skills/carecall-missed-appointment/SKILL.md",
+      "licence": "MIT",
+      "contribution": "After a missed visit, offering only times the practice has listed, giving details to no one but the patient, accepting a no without pressure, not asking why the visit was missed, passing health questions to the practice's staff, keeping what is shared to what booking a visit takes, checking that a missed visit has not already been rebooked before following it up (references/safety.md, Duplicate Prevention), and treating a call-back request as creating no new call until the practice decides (references/examples.md and references/result-schema.md).",
+      "text_reused": false,
+      "notice": "notices/CALLE-AI-awesome-phone-call-agents-LICENSE.txt"
+    }
+  ]
+}

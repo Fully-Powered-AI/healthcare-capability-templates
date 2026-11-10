@@ -1,6 +1,6 @@
 # Prior-authorization follow-up list: an invented example
 
-*Illustrative example with invented data.* An invented four-physician orthopedic practice on Monday 16 November 2026. The practice, the people (Renata, the referral coordinator; Odile, the front-desk lead; Dr. Imani), the payers, the request numbers and the patient codes are all invented. The inputs come first, in full, then the list.
+*Illustrative example with invented data.* An invented orthopedic practice on Monday 16 November 2026. The practice, the people (Renata, the referral coordinator; Odile, the front-desk lead; Dr. Imani), the payers, the request numbers and the patient codes are all invented. The inputs come first, in full, then the list.
 
 ## What the coordinator supplied
 

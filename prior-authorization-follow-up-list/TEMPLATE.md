@@ -1,6 +1,6 @@
 # Prior-authorization follow-up list
 
-Capability template, version 0.1.0 · Healthcare administration · Fully Powered AI
+Capability template, version 0.1.0.
 
 ## Purpose
 
@@ -10,7 +10,7 @@ The assistant prepares the list and nothing else. The coordinator decides what t
 
 ## When to use it and when not to
 
-Use it each working morning at the referral desk, in full on the first working day of the week, and whenever someone is covering the desk and needs to see what the regular coordinator would see. A practice administrator can run it to see where every open request stands.
+Use it each working morning at the referral desk, and whenever someone is covering the desk and needs to see what the regular coordinator would see. A practice administrator can run it to see where every open request stands.
 
 Do not use it to call or write to a payer or a patient, to prepare an appeal or a peer-to-peer discussion, to fill in a payer's form, to check eligibility or benefits, to choose or change a procedure code, or to judge whether a procedure is needed. It does no clinical work. Do not use it in an AI product your practice has not approved for the information in the list.
 
@@ -31,7 +31,7 @@ Do not use it to call or write to a payer or a patient, to prepare an appeal or 
 3. **Payer turnarounds:** for each payer, a number of days and whether they are business days or calendar days. The template carries none. If there are no turnarounds at all, stop. A payer on the list with no turnaround supplied makes that row "could not assess".
 4. **Days the practice is closed,** besides weekends. If not supplied, continue and say "working days skip weekends only; no closed days supplied".
 5. **Who may call a payer, and which owners are physicians.** If not supplied, ask once. If either is still missing, continue. With no physicians named, no row is placed in section 6, which reads "Not checked: physicians not supplied". With no callers named, section 9 makes no owner check. Outcome is then partial, and the Coverage line says which was missing.
-6. **The pending-referrals report** exported from the practice management system as a CSV file, with its date. The date is the one the person states; failing that, a date in the file's name; failing that, ask once, and if none is given the list says "date not given" and the report's age is not checked. Expected columns: Referral id, Patient, Payer, Procedure, Ordered. If it is missing or its columns cannot be matched, continue; the run is partial and section 5 reads "Not checked".
+6. **The pending-referrals report** exported from the practice management system as a CSV file, with its date. The date is the one the person states; failing that, a date in the file's name; failing that, ask once, and if none is given the list says "date not given" and the report's age is not checked. Expected columns: Referral id, Patient, Payer, Procedure, Ordered. If it is missing or its columns cannot be matched, continue; the run is partial and section 5 reads "Not checked" for the report; a schedule entry that matches no row is still listed there.
 7. **The procedure schedule** for the coming weeks, as a CSV file. Expected columns: Date, Patient, Procedure, Request id. Optional. If missing, section 1 reads "Not checked" and the chase order falls back to follow-up date.
 
 ## The procedure
@@ -89,7 +89,7 @@ Do not use it to call or write to a payer or a patient, to prepare an appeal or 
 
 ## Output format
 
-Plain text, every section present, in this order. Square brackets are filled in or, where a whole sentence sits inside them, left out when it does not apply. The sentences written out in sections 3 to 8 and 12 are fixed wording.
+Plain text, every section present, in this order. Square brackets are filled in or, where a whole sentence sits inside them, left out when it does not apply. The sentences written out in sections 3 to 8 and 12 are fixed wording. A run that stops is the one exception to "every section present": the reply is the title line and the Outcome line, then what is needed, and no sections.
 
 ```
 AUTHORIZATION FOLLOW-UP LIST, as of [weekday, date]
@@ -211,7 +211,7 @@ Proposed tests. None has been run.
 6. **Weekend end.** Ten calendar days from Wednesday 4 November 2026. Expected: the turnaround ends Saturday 14 November; follow-up Monday 16 November.
 7. **Unknown payer.** A payer with no turnaround supplied. Expected: section 10, no guessed date, Outcome partial.
 8. **Missing from the list.** A request in the report and not on the list. Expected: section 5, and counted in the Coverage line.
-9. **No report.** Expected: Outcome partial; section 5 "Not checked"; the Coverage line says a missing request cannot be seen.
+9. **No report.** Expected: Outcome partial; section 5 "Not checked" for the report; the Coverage line says a missing request cannot be seen.
 10. **Column renamed.** "Date submitted" renamed "Sent". Expected: stops; names the column; assesses no row.
 11. **Booked, need info.** A need-info row with a procedure booked next week. Expected: sections 1 and 3.
 12. **Asked to call the payer.** Expected: declines in one sentence, names who calls, gives the list.
@@ -257,8 +257,10 @@ unreadable; a required column is missing or repeated (case, spacing and
 order may vary; an extra column is not read and is named in Coverage); no
 turnarounds were supplied; or a file holds patient names, dates of birth,
 member numbers or addresses and the person has not confirmed the practice
-approved this product for them. Never supply a turnaround or a closed day
-from your own knowledge.
+approved this product for them. A stopped reply is the title line, the
+Outcome line reading "stopped" with the reason, and what is needed; it
+has no sections. Never supply a turnaround or a closed day from your own
+knowledge.
 
 Ask before going on:
 - If the as-of date is not stated, ask for it and prepare nothing until
@@ -374,7 +376,7 @@ Rules that are our editorial choices. The practice administrator should confirm 
 - **The owner flag.** An open row owned by someone who is neither a named caller nor a physician, or by no one, is flagged under "Check these". It is still placed and, if due, still listed to chase. Change this if other people at your practice may call a payer.
 - **Dates on closed rows are not checked.** A follow-up date is calculated only for a pending request, so the list's own follow-up date on an approved, denied or need-info row is never compared with anything.
 - **The fixed next-step sentences** in sections 3 to 8 and 12 of the output format are ours. Reword them to say what your desk does, such as where a submission confirmation is found in your system.
-- **Missing settings.** With no as-of date nothing is prepared. With no callers or physicians named the run continues as partial and says which owner checks were not done.
+- **Missing settings.** With no as-of date nothing is prepared. With no callers or physicians named the run continues as partial and says which owner checks were not done. With callers named and no physicians, a physician's pending request is placed like any other row, on the chase list if it is due, and is flagged under "Check these" as owned by neither a named caller nor a physician.
 - **No re-call interval.** After a logged call the next step is left to the coordinator. Set an interval, such as [your re-call days], if you want called rows to return to the chase list.
 - **Need info and booked, not approved** are shown every day, whatever their dates.
 - **The check against the system's report.** We chose the pending-referrals report as the independent count. Use whatever report in your system lists every open request.
@@ -386,4 +388,4 @@ Rules that are our editorial choices. The practice administrator should confirm 
 
 ## Version notes
 
-- 0.1.0, 9 November 2026. Written by Fully Powered AI from its own worked illustration for an invented practice. Editorially reviewed; after an independent review the same day, the output format gained a line form and fixed wording for every section, and the instructions were aligned with the inputs and the procedure. Tried once on its invented example. Not tested in a medical practice; no practice owner has reviewed the rules. The earlier build's score measured agreement with its own answer key and is not counted as a test. Not yet tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+- 0.1.0, 9 November 2026. Written by Fully Powered AI from its own worked illustration for an invented practice. Editorially reviewed; after an independent review the same day, the output format gained a line form and fixed wording for every section, and the instructions were aligned with the inputs and the procedure. Run three times on its invented example that day; two earlier runs led to changes, and the recorded run is the last. After a second review the same day, the instructions and the output format say what a stopped reply looks like, and the wording for a missing report and for missing physicians was made consistent; the recorded run predates those edits. Not tested in a medical practice; no practice owner has reviewed the rules. The earlier build's score measured agreement with its own answer key and is not counted as a test. Not yet tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.

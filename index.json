@@ -4,12 +4,28 @@
   "term": "industries/healthcare",
   "capabilities": [
     {
+      "id": "claim-denial-work-list",
+      "name": "Claim denial work list",
+      "version": "0.1.0",
+      "summary": "The billing coordinator gets every denied claim from the practice’s remittance export on one work list, sorted by kind of denial, appeal deadline and amount, with the paperwork each one needs and a short summary of where denials keep starting. Staff decide every appeal.",
+      "path": "claim-denial-work-list/",
+      "directory": "https://fullypowered.ai/capabilities/claim-denial-work-list/"
+    },
+    {
       "id": "prior-authorization-follow-up-list",
       "name": "Prior-authorization follow-up list",
       "version": "0.1.0",
       "summary": "Each morning the referral coordinator gets one list from the practice’s own spreadsheet: which authorization requests to chase today, which procedures are booked without an approval, what the payer is waiting on, and what the list is missing. A person makes every call.",
       "path": "prior-authorization-follow-up-list/",
       "directory": "https://fullypowered.ai/capabilities/prior-authorization-follow-up-list/"
+    },
+    {
+      "id": "provider-credentialing-tracker",
+      "name": "Provider credentialing and re-credentialing tracker",
+      "version": "0.1.0",
+      "summary": "The credentialing coordinator keeps one tracker per clinician: each licence, registration, certification, insurance policy and payer enrolment, where it was verified, when it falls due, the day its renewal should start, and which files are not yet complete. A person contacts every board and payer.",
+      "path": "provider-credentialing-tracker/",
+      "directory": "https://fullypowered.ai/capabilities/provider-credentialing-tracker/"
     }
   ]
 }

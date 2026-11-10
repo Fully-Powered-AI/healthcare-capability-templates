@@ -1,0 +1,55 @@
+{
+  "id": "provider-credentialing-tracker",
+  "name": "Provider credentialing and re-credentialing tracker",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "The credentialing coordinator keeps one tracker per clinician: each licence, registration, certification, insurance policy and payer enrolment, where it was verified, when it falls due, the day its renewal should start, and which files are not yet complete. A person contacts every board and payer.",
+  "directory": "https://fullypowered.ai/capabilities/provider-credentialing-tracker/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/operations-and-process-improvement",
+    "functions/compliance-risk-and-privacy"
+  ],
+  "industries": [
+    "industries/healthcare"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "prior-authorization-follow-up-list",
+    "pilot-acceptance-test-preparation",
+    "sop-exception-capture"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "The practice-scale form of the work: a roster and a spreadsheet export with stated column headers and a stop on any mismatch, requirements supplied by the practice with none of the template's own, the malpractice insurance policy and payer enrolment tracked as items, due and start dates calculated and shown on every item, fixed lists to act on, and nothing contacted, submitted or changed."
+    },
+    {
+      "kind": "third-party",
+      "repository": "CaseMark/skills",
+      "commit": "afe48c44914d753297766404378e871d1f88d7a8",
+      "path": "skills/med/managing-medical-staff-credentialing/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "The core items in a clinician's file (licence, controlled-substance registration, board certification and a recurring exclusion-list check); confirming each item with its issuing body rather than the clinician's copy; fixed-term approvals with renewal work started a set number of days ahead; a completeness check of each file before review; privileges, peer review and competence left to the medical leadership.",
+      "text_reused": false,
+      "notice": "notices/CaseMark-skills-LICENSE.txt"
+    }
+  ]
+}

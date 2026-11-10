@@ -1,0 +1,8 @@
+# Sources and credits
+
+Written by Fully Powered AI in its own words. Three ideas come from the managing-coding-denials method in CaseMark/skills (Apache-2.0): sorting denials by their cause, the administrative evidence some causes call for (proof that a claim was filed in time, the authorization record), and a review of denial patterns aimed at prevention. Fully Powered AI narrowed the work to one administrative work list built from the practice’s own export, and added the deadline count from each payer’s appeal window, the grouping by who clears each denial, the hand-off of every coding and medical-necessity question to a certified coder or a clinician, the rule that staff decide every appeal, and the output format. No third-party text is reused.
+
+- **Fully Powered AI:** Fully Powered AI's own rules for prepared work: the practice's own export and settings as the only authority, every deadline shown with its working, every coding or medical question handed to a named role, and staff who decide every appeal.
+- **[CaseMark/skills](https://github.com/CaseMark/skills)** at commit `afe48c44914d753297766404378e871d1f88d7a8`, `skills/med/managing-coding-denials/SKILL.md`, Apache-2.0. Sorting claim denials by their cause, naming the administrative evidence that certain causes need (proof of timely submission, the authorization record), and reviewing denial patterns by payer and provider for prevention. No text is reused. Its licence notice at that commit is in [notices/CaseMark-skills-LICENSE.txt](notices/CaseMark-skills-LICENSE.txt).
+
+This capability template is published by Fully Powered AI under the MIT licence in [LICENSE](LICENSE). Each source keeps its own licence and credit.

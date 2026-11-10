@@ -2,11 +2,13 @@
 
 A practice where no patient waits on paperwork nobody chased. These capability templates are written for the people who run the administrative side of a medical practice. They prepare administrative work only. They give no clinical advice, and the practice's staff make every decision and every call.
 
-This repository holds the first capability template for practice administrators and coordinators, with more on the way. It is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
+This repository holds 3 capability templates for practice administrators and coordinators. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
 
 ## The capabilities
 
+- **[Claim denial work list](claim-denial-work-list/)**: The billing coordinator gets every denied claim from the practice’s remittance export on one work list, sorted by kind of denial, appeal deadline and amount, with the paperwork each one needs and a short summary of where denials keep starting. Staff decide every appeal.
 - **[Prior-authorization follow-up list](prior-authorization-follow-up-list/)**: Each morning the referral coordinator gets one list from the practice’s own spreadsheet: which authorization requests to chase today, which procedures are booked without an approval, what the payer is waiting on, and what the list is missing. A person makes every call.
+- **[Provider credentialing and re-credentialing tracker](provider-credentialing-tracker/)**: The credentialing coordinator keeps one tracker per clinician: each licence, registration, certification, insurance policy and payer enrolment, where it was verified, when it falls due, the day its renewal should start, and which files are not yet complete. A person contacts every board and payer.
 
 ## How to use one
 

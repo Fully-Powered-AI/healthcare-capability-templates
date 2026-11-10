@@ -43,7 +43,7 @@ C-126,P-2044,Dr. M,Lab A,Crown,2026-11-12,2026-11-26,2026-11-30,,cancelled,,,A2
 
 ## What came back
 
-*The tracker below is what the template's rules produce from the inputs above, worked through by hand for this page and checked a second time. When the template was tried on these inputs in Claude on 10 November 2026, its output had the same words as this tracker, with two entries broken across lines at different points; the record of that run is published with this example.*
+*The tracker below is what the template's rules produce from the inputs above, worked through by hand for this page and checked a second time. When the template was tried on these inputs in Claude on 10 November 2026, every case, date and count in its output agreed with this tracker, and four lines differed in wording; the record of that run is published with this example.*
 
 ```
 DENTAL LAB CASE TRACKER, as of Monday, 2026-11-16

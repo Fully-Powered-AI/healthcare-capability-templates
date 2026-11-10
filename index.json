@@ -1,0 +1,15 @@
+{
+  "repository": "Fully-Powered-AI/healthcare-capability-templates",
+  "title": "Healthcare",
+  "term": "industries/healthcare",
+  "capabilities": [
+    {
+      "id": "prior-authorization-follow-up-list",
+      "name": "Prior-authorization follow-up list",
+      "version": "0.1.0",
+      "summary": "Each morning the referral coordinator gets one list from the practice’s own spreadsheet: which authorization requests to chase today, which procedures are booked without an approval, what the payer is waiting on, and what the list is missing. A person makes every call.",
+      "path": "prior-authorization-follow-up-list/",
+      "directory": "https://fullypowered.ai/capabilities/prior-authorization-follow-up-list/"
+    }
+  ]
+}

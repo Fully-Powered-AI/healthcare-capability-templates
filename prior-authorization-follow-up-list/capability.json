@@ -1,0 +1,42 @@
+{
+  "id": "prior-authorization-follow-up-list",
+  "name": "Prior-authorization follow-up list",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Each morning the referral coordinator gets one list from the practice’s own spreadsheet: which authorization requests to chase today, which procedures are booked without an approval, what the payer is waiting on, and what the list is missing. A person makes every call.",
+  "directory": "https://fullypowered.ai/capabilities/prior-authorization-follow-up-list/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/operations-and-process-improvement"
+  ],
+  "industries": [
+    "industries/healthcare"
+  ],
+  "situations": [
+    "situations/established-businesses"
+  ],
+  "related": [
+    "sop-exception-capture",
+    "pilot-acceptance-test-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-09",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-09",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI’s own worked illustration of a referral desk’s authorization follow-up procedure, built for an invented medical practice."
+    }
+  ]
+}

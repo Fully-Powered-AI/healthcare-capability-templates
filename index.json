@@ -36,6 +36,22 @@
       "directory": "https://fullypowered.ai/capabilities/dental-lab-case-tracker/"
     },
     {
+      "id": "incoming-referral-completeness-check",
+      "name": "Incoming referral completeness check",
+      "version": "0.1.0",
+      "summary": "When a referral arrives, the coordinator gets one checklist: what the referring office sent, held against the practice's own referral checklist, what is missing or needs a new copy, and a draft request for exactly those items. A clinician sets urgency; nothing is sent until the coordinator approves it.",
+      "path": "incoming-referral-completeness-check/",
+      "directory": "https://fullypowered.ai/capabilities/incoming-referral-completeness-check/"
+    },
+    {
+      "id": "patient-statement-and-eob-comparison",
+      "name": "Patient statement and explanation of benefits comparison",
+      "version": "0.1.0",
+      "summary": "A billing specialist answering a patient’s question gets the statement and the insurer’s explanation of benefits compared line by line by service date, every unmatched amount traced to its page, and a plain-language reply drafted for approval. Nothing on the account changes.",
+      "path": "patient-statement-and-eob-comparison/",
+      "directory": "https://fullypowered.ai/capabilities/patient-statement-and-eob-comparison/"
+    },
+    {
       "id": "prior-authorization-follow-up-list",
       "name": "Prior-authorization follow-up list",
       "version": "0.1.0",
@@ -50,6 +66,22 @@
       "summary": "The credentialing coordinator keeps one tracker per clinician: each licence, registration, certification, insurance policy and payer enrolment, where it was verified, when it falls due, the day its renewal should start, and which files are not yet complete. A person contacts every board and payer.",
       "path": "provider-credentialing-tracker/",
       "directory": "https://fullypowered.ai/capabilities/provider-credentialing-tracker/"
+    },
+    {
+      "id": "records-request-preparation-check",
+      "name": "Records request preparation check",
+      "version": "0.1.0",
+      "summary": "When a request for copies of records arrives, the records officer gets a checklist: what the request asks for, what the supplied authorization documents say, who the copies would go to, each set against the practice's own release procedure, with every gap listed. A person decides what, if anything, is released.",
+      "path": "records-request-preparation-check/",
+      "directory": "https://fullypowered.ai/capabilities/records-request-preparation-check/"
+    },
+    {
+      "id": "referring-practice-meeting-brief",
+      "name": "Referring practice meeting brief",
+      "version": "0.1.0",
+      "summary": "Before meeting a referring office that has raised handoff problems, the practice liaison gets one brief: what was promised to that office and whether each promise was kept, the questions its staff keep asking, counted by topic, and a proposed agenda. Counts only, no patient detail; the liaison decides.",
+      "path": "referring-practice-meeting-brief/",
+      "directory": "https://fullypowered.ai/capabilities/referring-practice-meeting-brief/"
     }
   ]
 }

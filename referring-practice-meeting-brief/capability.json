@@ -1,0 +1,45 @@
+{
+  "id": "referring-practice-meeting-brief",
+  "name": "Referring practice meeting brief",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Before meeting a referring office that has raised handoff problems, the practice liaison gets one brief: what was promised to that office and whether each promise was kept, the questions its staff keep asking, counted by topic, and a proposed agenda. Counts only, no patient detail; the liaison decides.",
+  "directory": "https://fullypowered.ai/capabilities/referring-practice-meeting-brief/",
+  "primary_function": "functions/customer-success-and-account-management",
+  "functions": [
+    "functions/customer-success-and-account-management",
+    "functions/operations-and-process-improvement"
+  ],
+  "industries": [
+    "industries/healthcare"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "sales-call-preparation-brief",
+    "meeting-agenda-notes-and-follow-ups",
+    "quarterly-business-review-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of healthcare administrative work, and its own rules for prepared work: the practice's own logs as the only evidence of a kept commitment, counts in place of patient detail, services described only in approved wording, and a liaison who chooses the agenda after each service owner has confirmed what may be offered."
+    }
+  ]
+}

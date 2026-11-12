@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "The front desk gets tomorrow’s bookings from the appointment export with the practice’s approved script or message filled in for each, every reply recorded once staff have called, and today’s no-shows with open slots to offer them. Staff make every call and every diary change.",
-  "directory": "https://fullypowered.ai/workflow templates/appointment-confirmation-and-no-show-follow-up/",
+  "directory": "https://fullypowered.ai/workflows/appointment-confirmation-and-no-show-follow-up/",
   "primary_function": "functions/customer-support-and-service",
   "functions": [
     "functions/customer-support-and-service",

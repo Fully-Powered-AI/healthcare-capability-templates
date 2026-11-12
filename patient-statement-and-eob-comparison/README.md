@@ -2,7 +2,7 @@
 
 A billing specialist answering a patient’s question gets the statement and the insurer’s explanation of benefits compared line by line by service date, every unmatched amount traced to its page, and a plain-language reply drafted for approval. Nothing on the account changes.
 
-*Workflow template · Healthcare · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/patient-statement-and-eob-comparison/)*
+*Workflow template · Healthcare · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/patient-statement-and-eob-comparison/)*
 
 ## The outcome
 
@@ -80,7 +80,7 @@ Testing in your practice means running it on past patient questions your special
 ## Related workflow templates
 
 - [Claim denial work list](../claim-denial-work-list/)
-- [Receivables exception review](https://fullypowered.ai/workflow templates/receivables-exception-review/)
+- [Receivables exception review](https://fullypowered.ai/workflows/receivables-exception-review/)
 - [Prior-authorization follow-up list](../prior-authorization-follow-up-list/)
 
 ## Make it yours

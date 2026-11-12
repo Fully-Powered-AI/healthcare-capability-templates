@@ -2,7 +2,7 @@
 
 Before meeting a referring office that has raised handoff problems, the practice liaison gets one brief: what was promised to that office and whether each promise was kept, the questions its staff keep asking, counted by topic, and a proposed agenda. Counts only, no patient detail; the liaison decides.
 
-*Workflow template · Healthcare · Customer success and account management · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/referring-practice-meeting-brief/)*
+*Workflow template · Healthcare · Customer success and account management · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/referring-practice-meeting-brief/)*
 
 ## The outcome
 
@@ -78,9 +78,9 @@ Testing in your practice means running it before two or three past meetings your
 
 ## Related workflow templates
 
-- [Sales call preparation brief](https://fullypowered.ai/workflow templates/sales-call-preparation-brief/)
-- [Meeting agenda, notes and follow-ups](https://fullypowered.ai/workflow templates/meeting-agenda-notes-and-follow-ups/)
-- [Quarterly business review preparation](https://fullypowered.ai/workflow templates/quarterly-business-review-preparation/)
+- [Sales call preparation brief](https://fullypowered.ai/workflows/sales-call-preparation-brief/)
+- [Meeting agenda, notes and follow-ups](https://fullypowered.ai/workflows/meeting-agenda-notes-and-follow-ups/)
+- [Quarterly business review preparation](https://fullypowered.ai/workflows/quarterly-business-review-preparation/)
 
 ## Make it yours
 

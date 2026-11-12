@@ -9,7 +9,7 @@
       "version": "0.1.0",
       "summary": "The front desk gets tomorrow’s bookings from the appointment export with the practice’s approved script or message filled in for each, every reply recorded once staff have called, and today’s no-shows with open slots to offer them. Staff make every call and every diary change.",
       "path": "appointment-confirmation-and-no-show-follow-up/",
-      "directory": "https://fullypowered.ai/workflow templates/appointment-confirmation-and-no-show-follow-up/"
+      "directory": "https://fullypowered.ai/workflows/appointment-confirmation-and-no-show-follow-up/"
     },
     {
       "id": "claim-denial-work-list",
@@ -17,7 +17,7 @@
       "version": "0.1.0",
       "summary": "The billing coordinator gets every denied claim from the practice’s remittance export on one work list, sorted by kind of denial, appeal deadline and amount, with the paperwork each one needs and a short summary of where denials keep starting. Staff decide every appeal.",
       "path": "claim-denial-work-list/",
-      "directory": "https://fullypowered.ai/workflow templates/claim-denial-work-list/"
+      "directory": "https://fullypowered.ai/workflows/claim-denial-work-list/"
     },
     {
       "id": "clinic-supply-par-levels-and-expiry-check",
@@ -25,7 +25,7 @@
       "version": "0.1.0",
       "summary": "From the clinic's own stock-count and usage exports, the person who orders supplies gets a par level and reorder point for every item in every room, what is below par, what will expire before it is used, and a draft order. Medical-surgical and office supplies only; a person approves every order.",
       "path": "clinic-supply-par-levels-and-expiry-check/",
-      "directory": "https://fullypowered.ai/workflow templates/clinic-supply-par-levels-and-expiry-check/"
+      "directory": "https://fullypowered.ai/workflows/clinic-supply-par-levels-and-expiry-check/"
     },
     {
       "id": "dental-lab-case-tracker",
@@ -33,7 +33,7 @@
       "version": "0.1.0",
       "summary": "The office coordinator keeps one tracker of every case at an outside dental lab: when it went, the lab's due date against the patient's seating, which cases are overdue or due back too late, each remake with its stated reason, and each lab's on-time record for the quarter. A person calls every lab.",
       "path": "dental-lab-case-tracker/",
-      "directory": "https://fullypowered.ai/workflow templates/dental-lab-case-tracker/"
+      "directory": "https://fullypowered.ai/workflows/dental-lab-case-tracker/"
     },
     {
       "id": "incoming-referral-completeness-check",
@@ -41,7 +41,7 @@
       "version": "0.1.0",
       "summary": "When a referral arrives, the coordinator gets one checklist: what the referring office sent, held against the practice's own referral checklist, what is missing or needs a new copy, and a draft request for exactly those items. A clinician sets urgency; nothing is sent until the coordinator approves it.",
       "path": "incoming-referral-completeness-check/",
-      "directory": "https://fullypowered.ai/workflow templates/incoming-referral-completeness-check/"
+      "directory": "https://fullypowered.ai/workflows/incoming-referral-completeness-check/"
     },
     {
       "id": "patient-statement-and-eob-comparison",
@@ -49,7 +49,7 @@
       "version": "0.1.0",
       "summary": "A billing specialist answering a patient’s question gets the statement and the insurer’s explanation of benefits compared line by line by service date, every unmatched amount traced to its page, and a plain-language reply drafted for approval. Nothing on the account changes.",
       "path": "patient-statement-and-eob-comparison/",
-      "directory": "https://fullypowered.ai/workflow templates/patient-statement-and-eob-comparison/"
+      "directory": "https://fullypowered.ai/workflows/patient-statement-and-eob-comparison/"
     },
     {
       "id": "prior-authorization-follow-up-list",
@@ -57,7 +57,7 @@
       "version": "0.1.0",
       "summary": "Each morning the referral coordinator gets one list from the practice’s own spreadsheet: which authorization requests to chase today, which procedures are booked without an approval, what the payer is waiting on, and what the list is missing. A person makes every call.",
       "path": "prior-authorization-follow-up-list/",
-      "directory": "https://fullypowered.ai/workflow templates/prior-authorization-follow-up-list/"
+      "directory": "https://fullypowered.ai/workflows/prior-authorization-follow-up-list/"
     },
     {
       "id": "provider-credentialing-tracker",
@@ -65,7 +65,7 @@
       "version": "0.1.0",
       "summary": "The credentialing coordinator keeps one tracker per clinician: each licence, registration, certification, insurance policy and payer enrolment, where it was verified, when it falls due, the day its renewal should start, and which files are not yet complete. A person contacts every board and payer.",
       "path": "provider-credentialing-tracker/",
-      "directory": "https://fullypowered.ai/workflow templates/provider-credentialing-tracker/"
+      "directory": "https://fullypowered.ai/workflows/provider-credentialing-tracker/"
     },
     {
       "id": "records-request-preparation-check",
@@ -73,7 +73,7 @@
       "version": "0.1.0",
       "summary": "When a request for copies of records arrives, the records officer gets a checklist: what the request asks for, what the supplied authorization documents say, who the copies would go to, each set against the practice's own release procedure, with every gap listed. A person decides what, if anything, is released.",
       "path": "records-request-preparation-check/",
-      "directory": "https://fullypowered.ai/workflow templates/records-request-preparation-check/"
+      "directory": "https://fullypowered.ai/workflows/records-request-preparation-check/"
     },
     {
       "id": "referring-practice-meeting-brief",
@@ -81,7 +81,7 @@
       "version": "0.1.0",
       "summary": "Before meeting a referring office that has raised handoff problems, the practice liaison gets one brief: what was promised to that office and whether each promise was kept, the questions its staff keep asking, counted by topic, and a proposed agenda. Counts only, no patient detail; the liaison decides.",
       "path": "referring-practice-meeting-brief/",
-      "directory": "https://fullypowered.ai/workflow templates/referring-practice-meeting-brief/"
+      "directory": "https://fullypowered.ai/workflows/referring-practice-meeting-brief/"
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 When a request for copies of records arrives, the records officer gets a checklist: what the request asks for, what the supplied authorization documents say, who the copies would go to, each set against the practice's own release procedure, with every gap listed. A person decides what, if anything, is released.
 
-*Workflow template · Healthcare · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/records-request-preparation-check/)*
+*Workflow template · Healthcare · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/records-request-preparation-check/)*
 
 ## The outcome
 
@@ -81,7 +81,7 @@ Testing in your practice means running it on requests your records officer has a
 
 - [Provider credentialing and re-credentialing tracker](../provider-credentialing-tracker/)
 - [Prior-authorization follow-up list](../prior-authorization-follow-up-list/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/)
 
 ## Make it yours
 

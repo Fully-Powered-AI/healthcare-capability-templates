@@ -2,7 +2,7 @@
 
 When a referral arrives, the coordinator gets one checklist: what the referring office sent, held against the practice's own referral checklist, what is missing or needs a new copy, and a draft request for exactly those items. A clinician sets urgency; nothing is sent until the coordinator approves it.
 
-*Workflow template · Healthcare · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/incoming-referral-completeness-check/)*
+*Workflow template · Healthcare · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/incoming-referral-completeness-check/)*
 
 ## The outcome
 
@@ -82,7 +82,7 @@ Testing in your practice means running it on past referrals your coordinator alr
 
 - [Prior-authorization follow-up list](../prior-authorization-follow-up-list/)
 - [Appointment confirmation and no-show follow-up](../appointment-confirmation-and-no-show-follow-up/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/)
 
 ## Make it yours
 

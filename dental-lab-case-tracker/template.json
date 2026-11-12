@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "The office coordinator keeps one tracker of every case at an outside dental lab: when it went, the lab's due date against the patient's seating, which cases are overdue or due back too late, each remake with its stated reason, and each lab's on-time record for the quarter. A person calls every lab.",
-  "directory": "https://fullypowered.ai/workflow templates/dental-lab-case-tracker/",
+  "directory": "https://fullypowered.ai/workflows/dental-lab-case-tracker/",
   "primary_function": "functions/operations-and-process-improvement",
   "functions": [
     "functions/operations-and-process-improvement",

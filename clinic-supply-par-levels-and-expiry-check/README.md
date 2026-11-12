@@ -2,7 +2,7 @@
 
 From the clinic's own stock-count and usage exports, the person who orders supplies gets a par level and reorder point for every item in every room, what is below par, what will expire before it is used, and a draft order. Medical-surgical and office supplies only; a person approves every order.
 
-*Workflow template · Healthcare · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/clinic-supply-par-levels-and-expiry-check/)*
+*Workflow template · Healthcare · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/clinic-supply-par-levels-and-expiry-check/)*
 
 ## The outcome
 
@@ -84,8 +84,8 @@ Testing in your practice means running it on two or three past counts your suppl
 
 ## Related workflow templates
 
-- [Inventory reorder plan](https://fullypowered.ai/workflow templates/inventory-reorder-plan/)
-- [Vendor quote comparison](https://fullypowered.ai/workflow templates/vendor-quote-comparison/)
+- [Inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/)
+- [Vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/)
 - [Prior-authorization follow-up list](../prior-authorization-follow-up-list/)
 
 ## Make it yours

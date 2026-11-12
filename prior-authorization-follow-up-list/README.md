@@ -2,7 +2,7 @@
 
 Each morning the referral coordinator gets one list from the practice’s own spreadsheet: which authorization requests to chase today, which procedures are booked without an approval, what the payer is waiting on, and what the list is missing. A person makes every call.
 
-*Workflow template · Healthcare · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/prior-authorization-follow-up-list/)*
+*Workflow template · Healthcare · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/prior-authorization-follow-up-list/)*
 
 ## The outcome
 
@@ -79,8 +79,8 @@ Testing in your practice means running it on past weeks your coordinator already
 
 ## Related workflow templates
 
-- [SOP exception capture](https://fullypowered.ai/workflow templates/sop-exception-capture/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/)
+- [SOP exception capture](https://fullypowered.ai/workflows/sop-exception-capture/)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/)
 
 ## Make it yours
 

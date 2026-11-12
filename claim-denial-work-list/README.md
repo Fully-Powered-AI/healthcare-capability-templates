@@ -2,7 +2,7 @@
 
 The billing coordinator gets every denied claim from the practice’s remittance export on one work list, sorted by kind of denial, appeal deadline and amount, with the paperwork each one needs and a short summary of where denials keep starting. Staff decide every appeal.
 
-*Workflow template · Healthcare · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/claim-denial-work-list/)*
+*Workflow template · Healthcare · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/claim-denial-work-list/)*
 
 ## The outcome
 
@@ -80,8 +80,8 @@ Testing in your practice means running it on a past month of denials your coordi
 ## Related workflow templates
 
 - [Prior-authorization follow-up list](../prior-authorization-follow-up-list/)
-- [Receivables exception review](https://fullypowered.ai/workflow templates/receivables-exception-review/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/)
+- [Receivables exception review](https://fullypowered.ai/workflows/receivables-exception-review/)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/)
 
 ## Make it yours
 

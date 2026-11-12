@@ -2,7 +2,7 @@
 
 The front desk gets tomorrow’s bookings from the appointment export with the practice’s approved script or message filled in for each, every reply recorded once staff have called, and today’s no-shows with open slots to offer them. Staff make every call and every diary change.
 
-*Workflow template · Healthcare · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/appointment-confirmation-and-no-show-follow-up/)*
+*Workflow template · Healthcare · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/appointment-confirmation-and-no-show-follow-up/)*
 
 ## The outcome
 
@@ -84,8 +84,8 @@ Testing in your practice means running it on a past week your desk already knows
 ## Related workflow templates
 
 - [Prior-authorization follow-up list](../prior-authorization-follow-up-list/)
-- [Customer reply drafting](https://fullypowered.ai/workflow templates/customer-reply-drafting/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/)
+- [Customer reply drafting](https://fullypowered.ai/workflows/customer-reply-drafting/)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/)
 
 ## Make it yours
 

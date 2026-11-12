@@ -2,7 +2,7 @@
 
 The office coordinator keeps one tracker of every case at an outside dental lab: when it went, the lab's due date against the patient's seating, which cases are overdue or due back too late, each remake with its stated reason, and each lab's on-time record for the quarter. A person calls every lab.
 
-*Workflow template · Healthcare · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/dental-lab-case-tracker/)*
+*Workflow template · Healthcare · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/dental-lab-case-tracker/)*
 
 ## The outcome
 
@@ -81,8 +81,8 @@ Testing in your office means running it on a few weeks your coordinator already 
 ## Related workflow templates
 
 - [Provider credentialing and re-credentialing tracker](../provider-credentialing-tracker/)
-- [Supplier issue notice](https://fullypowered.ai/workflow templates/supplier-issue-notice/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/)
+- [Supplier issue notice](https://fullypowered.ai/workflows/supplier-issue-notice/)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/)
 
 ## Make it yours
 

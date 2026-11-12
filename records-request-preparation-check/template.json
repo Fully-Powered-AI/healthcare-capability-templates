@@ -5,10 +5,10 @@
   "version": "0.1.0",
   "summary": "When a request for copies of records arrives, the records officer gets a checklist: what the request asks for, what the supplied authorization documents say, who the copies would go to, each set against the practice's own release procedure, with every gap listed. A person decides what, if anything, is released.",
   "directory": "https://fullypowered.ai/workflows/records-request-preparation-check/",
-  "primary_function": "functions/operations-and-process-improvement",
+  "primary_function": "functions/compliance-risk-and-privacy",
   "functions": [
-    "functions/operations-and-process-improvement",
-    "functions/compliance-risk-and-privacy"
+    "functions/compliance-risk-and-privacy",
+    "functions/operations-and-process-improvement"
   ],
   "industries": [
     "industries/healthcare"

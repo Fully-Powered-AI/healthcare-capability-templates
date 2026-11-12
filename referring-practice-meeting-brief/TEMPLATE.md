@@ -1,6 +1,6 @@
 # Referring practice meeting brief
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -14,7 +14,7 @@ Use it two to five working days before a meeting with a referring office that ha
 
 Do not use it:
 
-- to win a new referring office or to grow the number of referrals. That is a sales conversation, which the sales call preparation brief capability prepares. This brief proposes no referral targets and nothing of value to the office; anything of that kind goes to the compliance lead first;
+- to win a new referring office or to grow the number of referrals. That is a sales conversation, which the sales call preparation brief workflow template prepares. This brief proposes no referral targets and nothing of value to the office; anything of that kind goes to the compliance lead first;
 - to discuss a patient. A request to talk through one patient's referral or care is held for the right team and kept out of the meeting;
 - to answer a question about a patient's condition, results, medicines or urgency. Those go to the clinical lead;
 - to say how soon a patient can be seen, unless an approved description states it;

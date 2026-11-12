@@ -1,10 +1,10 @@
 {
   "id": "patient-statement-and-eob-comparison",
   "name": "Patient statement and explanation of benefits comparison",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "A billing specialist answering a patient’s question gets the statement and the insurer’s explanation of benefits compared line by line by service date, every unmatched amount traced to its page, and a plain-language reply drafted for approval. Nothing on the account changes.",
-  "directory": "https://fullypowered.ai/capabilities/patient-statement-and-eob-comparison/",
+  "directory": "https://fullypowered.ai/workflow templates/patient-statement-and-eob-comparison/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting"

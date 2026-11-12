@@ -1,6 +1,6 @@
 # Claim denial work list
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -12,7 +12,7 @@ The assistant prepares the list and nothing else. It works only on the administr
 
 Use it when a batch of remittances has been posted and the billing coordinator wants to know what to work first, typically once a week, and before month end so that no appeal deadline passes unseen. A practice manager can run it to see where denials are coming from.
 
-Do not use it to write an appeal letter, fill in a payer's appeal form, submit or resubmit a claim, write off a balance, call or write to a payer or a patient, or decide whether a denial is worth appealing. Do not use it to review coding or documentation: any denial that turns on a code, a modifier or medical necessity is listed for a certified coder or a clinician with no view from the assistant. Do not use it for prior-authorization requests that have not yet been decided; a separate capability tracks those. Do not use it in an AI product your practice has not approved for the information in the export.
+Do not use it to write an appeal letter, fill in a payer's appeal form, submit or resubmit a claim, write off a balance, call or write to a payer or a patient, or decide whether a denial is worth appealing. Do not use it to review coding or documentation: any denial that turns on a code, a modifier or medical necessity is listed for a certified coder or a clinician with no view from the assistant. Do not use it for prior-authorization requests that have not yet been decided; a separate workflow template tracks those. Do not use it in an AI product your practice has not approved for the information in the export.
 
 ## Roles
 

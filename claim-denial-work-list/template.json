@@ -1,10 +1,10 @@
 {
   "id": "claim-denial-work-list",
   "name": "Claim denial work list",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "The billing coordinator gets every denied claim from the practice’s remittance export on one work list, sorted by kind of denial, appeal deadline and amount, with the paperwork each one needs and a short summary of where denials keep starting. Staff decide every appeal.",
-  "directory": "https://fullypowered.ai/capabilities/claim-denial-work-list/",
+  "directory": "https://fullypowered.ai/workflow templates/claim-denial-work-list/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting"

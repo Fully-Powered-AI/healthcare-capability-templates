@@ -1,10 +1,10 @@
 {
   "id": "incoming-referral-completeness-check",
   "name": "Incoming referral completeness check",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "When a referral arrives, the coordinator gets one checklist: what the referring office sent, held against the practice's own referral checklist, what is missing or needs a new copy, and a draft request for exactly those items. A clinician sets urgency; nothing is sent until the coordinator approves it.",
-  "directory": "https://fullypowered.ai/capabilities/incoming-referral-completeness-check/",
+  "directory": "https://fullypowered.ai/workflow templates/incoming-referral-completeness-check/",
   "primary_function": "functions/operations-and-process-improvement",
   "functions": [
     "functions/operations-and-process-improvement",

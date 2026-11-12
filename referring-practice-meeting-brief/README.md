@@ -2,7 +2,7 @@
 
 Before meeting a referring office that has raised handoff problems, the practice liaison gets one brief: what was promised to that office and whether each promise was kept, the questions its staff keep asking, counted by topic, and a proposed agenda. Counts only, no patient detail; the liaison decides.
 
-*Capability template · Healthcare · Customer success and account management · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/referring-practice-meeting-brief/)*
+*Workflow template · Healthcare · Customer success and account management · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/referring-practice-meeting-brief/)*
 
 ## The outcome
 
@@ -36,7 +36,7 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 ## Where it fits
 
 - [Healthcare](https://fullypowered.ai/industries/healthcare/): specialty practices, imaging centers and outpatient services that depend on other offices sending them patients.
-- [Customer success and account management](https://fullypowered.ai/functions/customer-success-and-account-management/): looking after an existing relationship whose working arrangements have frayed. Winning a new referring office is sales work; the [sales call preparation brief](https://fullypowered.ai/capabilities/sales-call-preparation-brief/) covers that conversation.
+- [Customer success and account management](https://fullypowered.ai/functions/customer-success-and-account-management/): looking after an existing relationship whose working arrangements have frayed. Winning a new referring office is sales work; the [sales call preparation brief](https://fullypowered.ai/workflows/sales-call-preparation-brief/) covers that conversation.
 - [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/): the meeting turns repeated complaints into a short list of handoff fixes with named owners.
 - [Established businesses](https://fullypowered.ai/situations/established-businesses/): a practice whose referral relationships run on one liaison's memory.
 - [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/): a practice adding services or sites faster than its referral desk adapts.
@@ -49,9 +49,9 @@ Decide what counts as evidence that a promise was kept; the template treats "don
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template from its own published map of healthcare administrative work. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record of that run is published with it. It has not yet been tested in a medical practice or in a client environment, and no practice has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template from its own published map of healthcare administrative work. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record of that run is published with it. It has not yet been tested in a medical practice or in a client environment, and no practice has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your practice means running it before two or three past meetings your liaison remembers, with cases written in advance: a promise marked done with no evidence, an overdue promise, a renamed column, a question that names a patient. The liaison checks every status and count against the logs before anyone relies on the brief. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up.
+Testing in your practice means running it before two or three past meetings your liaison remembers, with cases written in advance: a promise marked done with no evidence, an overdue promise, a renamed column, a question that names a patient. The liaison checks every status and count against the logs before anyone relies on the brief. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -62,11 +62,11 @@ Testing in your practice means running it before two or three past meetings your
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -76,12 +76,12 @@ Testing in your practice means running it before two or three past meetings your
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Sales call preparation brief](https://fullypowered.ai/capabilities/sales-call-preparation-brief/)
-- [Meeting agenda, notes and follow-ups](https://fullypowered.ai/capabilities/meeting-agenda-notes-and-follow-ups/)
-- [Quarterly business review preparation](https://fullypowered.ai/capabilities/quarterly-business-review-preparation/)
+- [Sales call preparation brief](https://fullypowered.ai/workflow templates/sales-call-preparation-brief/)
+- [Meeting agenda, notes and follow-ups](https://fullypowered.ai/workflow templates/meeting-agenda-notes-and-follow-ups/)
+- [Quarterly business review preparation](https://fullypowered.ai/workflow templates/quarterly-business-review-preparation/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

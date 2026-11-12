@@ -2,7 +2,7 @@
 
 The billing coordinator gets every denied claim from the practice’s remittance export on one work list, sorted by kind of denial, appeal deadline and amount, with the paperwork each one needs and a short summary of where denials keep starting. Staff decide every appeal.
 
-*Capability template · Healthcare · Finance and accounting · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/claim-denial-work-list/)*
+*Workflow template · Healthcare · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/claim-denial-work-list/)*
 
 ## The outcome
 
@@ -20,7 +20,7 @@ The billing coordinator starts it once a batch of remittances is posted, usually
 
 - The denials from the remittance export, saved as a spreadsheet file, one row per denied claim line, with patients shown as codes.
 - Today’s date.
-- Each payer’s appeal window and timely filing limit, in days. The capability carries none and will not guess one.
+- Each payer’s appeal window and timely filing limit, in days. The workflow template carries none and will not guess one.
 - Optionally, the practice’s own list of denial reason codes and the group each belongs to. A starter list comes with the template for the billing lead to confirm.
 
 Nothing connects to the practice’s systems. The coordinator exports the file and supplies it. If the file’s column headings do not match what the template expects, it stops and asks rather than guessing.
@@ -46,13 +46,13 @@ Your payers come first: each one’s appeal window and filing limit, and the dat
 
 Several rules are our editorial choices, and your billing lead should confirm or change each: denials are grouped by who clears them; a passed deadline comes first and leaves its group; the order is deadline, then amount, and never by patient or provider; remark codes are shown but not interpreted; the warning window is fourteen days and a pattern is three rows. The complete list is in the template.
 
-Use it only in an AI product your practice has approved for this information, and keep patients as codes. It does not write appeals: your staff do. For the neighbouring work, see [Receivables exception review](https://fullypowered.ai/capabilities/receivables-exception-review/) and [Prior-authorization follow-up list](https://fullypowered.ai/capabilities/prior-authorization-follow-up-list/).
+Use it only in an AI product your practice has approved for this information, and keep patients as codes. It does not write appeals: your staff do. For the neighbouring work, see [Receivables exception review](https://fullypowered.ai/workflows/receivables-exception-review/) and [Prior-authorization follow-up list](https://fullypowered.ai/workflows/prior-authorization-follow-up-list/).
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template in its own words, drawing on one published Apache-2.0 method credited in its sources. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026; the record of that run is published with it, and lists the small edits made afterward that have not been run again. It has not been tested in a medical practice, and no practice’s billing lead has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template in its own words, drawing on one published Apache-2.0 method credited in its sources. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026; the record of that run is published with it, and lists the small edits made afterward that have not been run again. It has not been tested in a medical practice, and no practice’s billing lead has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your practice means running it on a past month of denials your coordinator already knows, with cases written in advance: a deadline that has passed, a payer with no settings, a reason code missing from the map, a timely-filing denial where the claim did go out in time. The coordinator checks every deadline against the remittance before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up.
+Testing in your practice means running it on a past month of denials your coordinator already knows, with cases written in advance: a deadline that has passed, a payer with no settings, a reason code missing from the map, a timely-filing denial where the claim did go out in time. The coordinator checks every deadline against the remittance before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -63,11 +63,11 @@ Testing in your practice means running it on a past month of denials your coordi
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -77,12 +77,12 @@ Testing in your practice means running it on a past month of denials your coordi
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
 - [Prior-authorization follow-up list](../prior-authorization-follow-up-list/)
-- [Receivables exception review](https://fullypowered.ai/capabilities/receivables-exception-review/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/)
+- [Receivables exception review](https://fullypowered.ai/workflow templates/receivables-exception-review/)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

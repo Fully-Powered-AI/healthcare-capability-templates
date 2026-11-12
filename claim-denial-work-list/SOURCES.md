@@ -5,4 +5,4 @@ Written by Fully Powered AI in its own words. Three ideas come from the managing
 - **Fully Powered AI:** Fully Powered AI's own rules for prepared work: the practice's own export and settings as the only authority, every deadline shown with its working, every coding or medical question handed to a named role, and staff who decide every appeal.
 - **[CaseMark/skills](https://github.com/CaseMark/skills)** at commit `afe48c44914d753297766404378e871d1f88d7a8`, `skills/med/managing-coding-denials/SKILL.md`, Apache-2.0. Sorting claim denials by their cause, naming the administrative evidence that certain causes need (proof of timely submission, the authorization record), and reviewing denial patterns by payer and provider for prevention. No text is reused. Its licence notice at that commit is in [notices/CaseMark-skills-LICENSE.txt](notices/CaseMark-skills-LICENSE.txt).
 
-This capability template is published by Fully Powered AI under the MIT licence in [LICENSE](LICENSE). Each source keeps its own licence and credit.
+This workflow template is published by Fully Powered AI under the MIT licence in [LICENSE](LICENSE). Each source keeps its own licence and credit.

@@ -1,6 +1,6 @@
 # Patient statement and explanation of benefits comparison
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -12,7 +12,7 @@ The assistant prepares the comparison and the draft and nothing else. It works o
 
 Use it when a patient asks why a statement differs from an EOB and the specialist has both documents. A practice manager can run it on past questions to see which kinds of difference recur.
 
-Do not use it to work denied claims, which is a separate capability (the claim denial work list). Do not use it to write to the patient or the insurer on its own authority, send or post anything, adjust a balance, refund or write off an amount, change a code, or decide who owes what. Do not use it to interpret the EOB's remark codes or the insurer's coverage decisions. Do not use it for a question about the law or the patient's rights: that goes to the practice's own adviser. Do not use it in an AI product your practice has not approved for the information in the files.
+Do not use it to work denied claims, which is a separate workflow template (the claim denial work list). Do not use it to write to the patient or the insurer on its own authority, send or post anything, adjust a balance, refund or write off an amount, change a code, or decide who owes what. Do not use it to interpret the EOB's remark codes or the insurer's coverage decisions. Do not use it for a question about the law or the patient's rights: that goes to the practice's own adviser. Do not use it in an AI product your practice has not approved for the information in the files.
 
 ## Roles
 

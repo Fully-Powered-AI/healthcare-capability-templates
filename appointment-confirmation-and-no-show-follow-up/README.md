@@ -2,7 +2,7 @@
 
 The front desk gets tomorrow’s bookings from the appointment export with the practice’s approved script or message filled in for each, every reply recorded once staff have called, and today’s no-shows with open slots to offer them. Staff make every call and every diary change.
 
-*Capability template · Healthcare · Customer support and service · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/appointment-confirmation-and-no-show-follow-up/)*
+*Workflow template · Healthcare · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/appointment-confirmation-and-no-show-follow-up/)*
 
 ## The outcome
 
@@ -50,13 +50,13 @@ Your wording comes first: the template carries none of its own and never writes 
 
 Several rules are our editorial choices, and your practice manager should confirm or change each: the next working day is the default day to confirm; a voicemail or a text with no reply is not a confirmation; slots are offered with the same provider at the same location; patients who asked to move are offered times before no-shows; a no-show who is already rebooked gets no offer; the list never suggests a missed-appointment fee or a discharge. The complete list is in the template.
 
-Use it only in an AI product your practice has approved for this information. For the neighbouring work, see [Prior-authorization follow-up list](https://fullypowered.ai/capabilities/prior-authorization-follow-up-list/) for requests waiting on payers and [Customer reply drafting](https://fullypowered.ai/capabilities/customer-reply-drafting/) for written replies.
+Use it only in an AI product your practice has approved for this information. For the neighbouring work, see [Prior-authorization follow-up list](https://fullypowered.ai/workflows/prior-authorization-follow-up-list/) for requests waiting on payers and [Customer reply drafting](https://fullypowered.ai/workflows/customer-reply-drafting/) for written replies.
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template in its own words, drawing on two published MIT-licensed methods credited in its sources. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026; the record of that run is published with it, and lists the small edits made afterward that have not been run again. That run covered an ordinary day, with a voicemail, a request to move, a health question and a no-show already rebooked; it did not reach a column heading that does not match, a file carrying contact details, wording that asks why a visit was missed, or a request to send the messages. It has not been tested in a practice, and no practice manager has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template in its own words, drawing on two published MIT-licensed methods credited in its sources. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026; the record of that run is published with it, and lists the small edits made afterward that have not been run again. That run covered an ordinary day, with a voicemail, a request to move, a health question and a no-show already rebooked; it did not reach a column heading that does not match, a file carrying contact details, wording that asks why a visit was missed, or a request to send the messages. It has not been tested in a practice, and no practice manager has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your practice means running it on a past week your desk already knows, with cases written in advance: a voicemail, a patient who asks to move with a preferred day, a reply that mentions a health question, a no-show who is already rebooked, two people waiting for the same provider. The coordinator checks every filled script and every slot against the diary before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up.
+Testing in your practice means running it on a past week your desk already knows, with cases written in advance: a voicemail, a patient who asks to move with a preferred day, a reply that mentions a health question, a no-show who is already rebooked, two people waiting for the same provider. The coordinator checks every filled script and every slot against the diary before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -67,11 +67,11 @@ Testing in your practice means running it on a past week your desk already knows
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -81,12 +81,12 @@ Testing in your practice means running it on a past week your desk already knows
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
 - [Prior-authorization follow-up list](../prior-authorization-follow-up-list/)
-- [Customer reply drafting](https://fullypowered.ai/capabilities/customer-reply-drafting/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/)
+- [Customer reply drafting](https://fullypowered.ai/workflow templates/customer-reply-drafting/)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

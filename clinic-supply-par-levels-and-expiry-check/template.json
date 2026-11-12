@@ -1,10 +1,10 @@
 {
   "id": "clinic-supply-par-levels-and-expiry-check",
   "name": "Clinic supply par levels and expiry check",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "From the clinic's own stock-count and usage exports, the person who orders supplies gets a par level and reorder point for every item in every room, what is below par, what will expire before it is used, and a draft order. Medical-surgical and office supplies only; a person approves every order.",
-  "directory": "https://fullypowered.ai/capabilities/clinic-supply-par-levels-and-expiry-check/",
+  "directory": "https://fullypowered.ai/workflow templates/clinic-supply-par-levels-and-expiry-check/",
   "primary_function": "functions/supply-chain-and-inventory",
   "functions": [
     "functions/supply-chain-and-inventory"

@@ -1,6 +1,6 @@
 # Incoming referral completeness check
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -19,7 +19,7 @@ Do not use it:
 - to book, move or cancel an appointment, or to contact the patient;
 - to follow up an authorization request waiting on a payer. The prior-authorization follow-up list does that work; this check only notes whether an authorization item on the checklist was supplied;
 - to check insurance eligibility or benefits;
-- to write a checklist for a practice that has none. The practice administrator writes the first one; this capability applies it;
+- to write a checklist for a practice that has none. The practice administrator writes the first one; this workflow template applies it;
 - in an AI product the practice has not approved for the information in the referral.
 
 ## Roles

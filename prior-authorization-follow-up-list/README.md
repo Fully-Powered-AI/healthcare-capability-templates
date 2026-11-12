@@ -2,7 +2,7 @@
 
 Each morning the referral coordinator gets one list from the practice’s own spreadsheet: which authorization requests to chase today, which procedures are booked without an approval, what the payer is waiting on, and what the list is missing. A person makes every call.
 
-*Capability template · Healthcare · Operations and process improvement · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/prior-authorization-follow-up-list/)*
+*Workflow template · Healthcare · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/prior-authorization-follow-up-list/)*
 
 ## The outcome
 
@@ -50,9 +50,9 @@ Use it only in an AI product your practice has approved for this information, an
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template from its own worked illustration, built for an invented practice. It was editorially reviewed on 9 November 2026. It was run on its invented example in Claude on 9 November 2026, and the record is published with it: two earlier runs that day led to changes, and the recorded run is the last. A run on an invented example is not a test. It has not been tested in a medical practice, and no practice owner has reviewed its rules. Our earlier build of this workflow was scored only against an answer key written by the same build, which shows the build agreed with itself; we do not count that as a test. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template from its own worked illustration, built for an invented practice. It was editorially reviewed on 9 November 2026. It was run on its invented example in Claude on 9 November 2026, and the record is published with it: two earlier runs that day led to changes, and the recorded run is the last. A run on an invented example is not a test. It has not been tested in a medical practice, and no practice owner has reviewed its rules. Our earlier build of this workflow template was scored only against an answer key written by the same build, which shows the build agreed with itself; we do not count that as a test. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your practice means running it on past weeks your coordinator already knows, with cases written in advance: a request with no submission date, a payer with no turnaround on file, a booked procedure that is still pending, a request missing from the list. The coordinator checks every date and every row against the spreadsheet before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up, and [SOP exception capture](https://fullypowered.ai/capabilities/sop-exception-capture/) is how the coordinator’s unwritten rules get written down first.
+Testing in your practice means running it on past weeks your coordinator already knows, with cases written in advance: a request with no submission date, a payer with no turnaround on file, a booked procedure that is still pending, a request missing from the list. The coordinator checks every date and every row against the spreadsheet before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [SOP exception capture](https://fullypowered.ai/workflows/sop-exception-capture/) is how the coordinator’s unwritten rules get written down first.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -63,11 +63,11 @@ Testing in your practice means running it on past weeks your coordinator already
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -77,11 +77,11 @@ Testing in your practice means running it on past weeks your coordinator already
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [SOP exception capture](https://fullypowered.ai/capabilities/sop-exception-capture/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/)
+- [SOP exception capture](https://fullypowered.ai/workflow templates/sop-exception-capture/)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
